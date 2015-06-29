@@ -1,0 +1,198 @@
+.headline {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #35495A;
+    font-size: 14px;
+    margin: 25px auto;
+    width: 820px;
+}
+h1 {
+    margin: 0;
+}
+
+.offers_container {
+    position: relative;
+    width: 880px;
+    height: 470px;
+    margin: 0px auto;
+}
+.subscription-plan {
+    width: 300px;
+    height: 470px;
+    background-color: #EE8129;
+
+    box-shadow: 0px 0px 4px 3px #D7E6EE;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.subscription-plan.best_value{
+    position: absolute;
+    left: 290px;
+}
+.subscription-plan.standard {
+    width: 290px;
+    height: 440px;
+    position: absolute;
+    top: 13px;
+    box-shadow: 0px 0px 0px 0px;
+    margin-right: -4px;
+    border: solid 2px #D7E6EE;
+    border-right: 0px;
+    background-color: #2BC2D4;
+    border-radius: 8px 0 0 0;
+}
+.subscription-plan.ultimate {
+    width: 290px;
+    height: 440px;
+    position: absolute;
+    left: 590px;
+    top: 13px;
+    box-shadow: 0px 0px 0px 0px;
+    border: solid 2px #D7E6EE;
+    border-left: 0px;
+    background-color: #00B89A;
+    border-radius: 0 8px 0 0;
+    z-index: -1;
+}
+.plan-title {
+    margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    height: 19px;
+    width: 300px;
+    font: 700 19px sans-serif ;
+    vertical-align: middle;
+    top: 0px;
+    left: 0px;
+    padding: 29px 0;
+}
+.plan-title.standard {
+    height: 4px;
+    background-color: #2BC2D4;
+    padding-top: 21px;
+    padding-bottom: 37px;
+    width: 290px;
+    border-radius: 8px 0 0 0;
+}
+.plan-title.ultimate {
+    height: 4px;
+    background-color: #00B89A;
+    padding-top: 21px;
+    padding-bottom: 37px;
+    width: 290px;
+    border-radius: 0 8px 0 0;
+}
+.plan-container {
+    background-color: white;
+    width: 290px;
+    height: 389px;
+    left: 0px;
+    top: 77px;
+    margin: 0px auto;
+}
+.plan-container.standard {
+    width: 290px;
+    height: 379px;
+}
+.plan-container.ultimate {
+    width: 290px;
+    height: 379px;
+}
+.plan-name {
+    color: #35495A;
+    font: 20px sans-serif;
+    text-align: center;
+    padding: 21px 0;
+}
+.plan-description > div {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+.plan-description {
+    height: 78px;
+    width: 167px;
+    margin: 0 auto;
+}
+.currency {
+    vertical-align: 18px;
+    font: 22px sans-serif ;
+    color: #35495A;
+}
+.plan-price {
+    vertical-align: middle;
+    font: 72px sans-serif ;
+    color: #35495A;
+}
+.period {
+    vertical-align: -28px;
+    font: 19px sans-serif ;
+    color: #35495A;
+}
+.features-list{
+    list-style-type: none;
+    padding-left: 0px;
+    width: 260px;
+    margin: 26px auto 10px;
+}
+.features-list__item {
+    height: 27px;
+    width: 260px;
+    color: #35495A;
+    text-align: left;
+    padding-top: 7px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.features-list__item:nth-child(odd) {
+    background-color: #E8F2FB;
+}
+.features-list__item:nth-child(odd):before {
+    content: url("http://s012.radikal.ru/i319/1505/fd/7011ed76b887.png");
+    margin-right: 16px;
+    margin-left: 33px;
+}
+.features-list__item:nth-child(even):before {
+    content: url("http://s015.radikal.ru/i331/1505/ca/d184137ef715.png");
+    margin-right: 16px;
+    margin-left: 33px;
+}
+.plan-enroll-link {
+    display: block;
+    margin: 0px auto;
+    width: 253px;
+    height: 29px;
+    background-color: #EE8129;
+    border-radius: 5px;
+    box-shadow: 0 3px 0px 0px #B05710;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font: 15px sans-serif;
+    text-align: center;
+    padding-top: 13px;
+    transition: background 0.2s, box-shadow 0.3s;
+}
+.plan-enroll-link.standard {
+    background-color: #2F70A8;
+    box-shadow: 0 3px 0px 0px #13426B;
+}
+.plan-enroll-link.ultimate {
+    background-color: #2F70A8;
+    box-shadow: 0 3px 0px 0px #13426B;
+}
+.plan-enroll-link:hover {
+    background-color: #FF9C2A;
+    box-shadow: 0px 3px 3px 0px #B05710;
+}
+.plan-enroll-link.standard:hover {
+    background-color: #5CA4FF;
+    box-shadow: 0px 3px 3px 0px #13426B;
+}
+.plan-enroll-link.ultimate:hover {
+    background-color: #5CA4FF;
+    box-shadow: 0px 3px 3px 0px #13426B;
+}

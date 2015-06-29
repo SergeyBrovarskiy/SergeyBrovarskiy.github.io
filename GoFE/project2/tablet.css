@@ -1,0 +1,85 @@
+@media (max-width: 1000px) and (min-width: 800px){
+    body {
+        width: 100%;
+        max-width: 1000px;
+        min-width: 800px;
+    }
+    .header__wrapper {
+        width: 766px;
+        margin: 0 auto;
+    }
+    .welcome-wrapper {
+        width: 766px;
+        margin: 0 auto;
+    }
+    .welcome-wrapper__left-block {
+        width: 56%;
+    }
+    .welcome-wrapper__welcome {
+        font-size: 32px;
+    }
+    .welcome-wrapper__paragraph {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .subhead-paragraph-content {
+        width: 766px;
+        margin: 0 auto;
+    }
+    .subhead-paragraph-content p {
+        width: 53%;
+    }
+    .benefits {
+        margin: 30px auto 0 auto;
+        width: 766px;
+    }
+    .benefit-item {
+        float: none;
+        width: 100%;
+    }
+    .programs {
+        margin: 0;
+    }
+    .benefit-image {
+        float: left;
+        padding-right: 20px;
+    }
+    .benefit-header,
+    .benefit-paragraph {
+        text-align: left;
+    }
+    .benefit-paragraph {
+        margin-bottom: 10px;
+    }
+    .benefit-item__link {
+        float: left;
+    }
+    .comments-top {
+        width: 766px;
+        margin: 0 auto;
+    }
+    .comments-bottom-wrapper {
+        width: 766px;
+        margin: 0 auto;
+    }
+    .comments-bottom__image {
+        top: -247px;
+    }
+    .comments-bottom__button {
+        font-size: 19px;
+        width: 470px;
+        padding-top: 17px;
+    }
+    .comments-bottom__button:after {
+        left: 404px;
+        top: 8px;
+    }
+
+    .footer__wrapper {
+        width: 766px;
+        margin: 0 auto;
+    }
+    .credits {
+        width: 60%;
+    }
+}

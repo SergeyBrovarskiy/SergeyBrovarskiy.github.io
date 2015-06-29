@@ -1,0 +1,13 @@
+a[href*="http"] {
+    color: #f70;
+}
+a[href*="google.com"] {
+    color: #666;
+}
+li:nth-child(5):after {
+    content:'\21F1';
+    color: #f70;
+    padding: 3px;
+    font-size: 70%;
+    -moz-transform: rotate(90deg)
+}

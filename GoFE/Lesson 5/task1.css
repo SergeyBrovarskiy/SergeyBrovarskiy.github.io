@@ -1,0 +1,70 @@
+.main_menu {
+    position: relative;
+    width: auto;
+    height: 39px;
+    background-color: #1AA4FF;
+    margin: 0 auto;
+
+}
+.sub_menu {
+    width: 100%;
+    position: absolute;
+    height: 39px;
+    background-color: #E3E3E3;
+    top: 39px;
+    left: 0px;
+    display: none;
+}
+.first_level_menu {
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+.second_level_menu {
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+.first_level_menu_button {
+    text-transform: uppercase;
+    display: inline-block;
+    font: 19px Impact;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: -8px;
+}
+.second_level_menu_button {
+    text-transform: capitalize;
+    display: inline-block;
+    font: 14px Impact;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: -8px;
+   }
+li.first_level_menu_button > a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 8px;
+    transition: color 0.2s, background 0.2s;
+}
+li.second_level_menu_button > a {
+    text-decoration: none;
+    color: #6F737A;
+    padding: 11px 8px;
+    transition: color 0.2s, background 0.2s;
+}
+
+.first_level_menu_button:hover > a {
+    color: #8D8D8C;
+    background-color: #E3E3E3;
+    cursor: pointer;
+    box-shadow: 0px -1px 3px 0px #8D8D8C;
+}
+.second_level_menu_button:hover > a {
+    color: white;
+    background-color: #8D8D8C;
+    cursor: pointer;
+}
+.hover_travels:hover .sub_menu {
+    display: block;
+}

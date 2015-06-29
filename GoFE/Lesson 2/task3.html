@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form name="form_1" action="/">
+    <p>
+        <label for="Name">Name <br/><input type="text" id="Name"/></label>
+    </p>
+    <p>
+        <label for="Email">Email <br/><input type="text" id="Email"/></label>
+    </p>
+    <p>
+        Sex <br/>
+        <input type="radio" name="sex" value="male"/>Male
+        <input type="radio" name="sex" value="female"/>Female
+    </p>
+    <p>
+        Current status <br/>
+        <input type="checkbox" name="status" value="stud"/>Student <br/>
+        <input type="checkbox" name="status" value="emp"/>Employed <br/>
+        <input type="checkbox" name="status" value="unemp"/>Unemployed <br/>
+    </p>
+    <p>
+        Month and Year of birth <br/>
+        <select name="month">
+            <option selected value="jan">January</option>
+            <option value="feb">February</option>
+            <option value="mar">March</option>
+        </select>
+        <select name="Year">
+            <option selected value="1984">1984</option>
+            <option value="1985">1985</option>
+            <option value="1986">1986</option>
+            <option value="1987">1987</option>
+        </select>
+    </p>
+    <p>
+        Skills and Technologies <br/>
+        <select name="skills" multiple size="10">
+            <optgroup label="Tech Skills">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">Javascript</option>
+                <option value="git">Git</option>
+            </optgroup>
+            <optgroup label="Soft skills">
+                <option value="timeman">Time management</option>
+                <option value="proact">Proactivity</option>
+                <option value="teanw">Teamwork</option>
+                <option value="leader">Leadership</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="attach">Photo <br/> <input type="file" id="attach" value="Choose file"/></label>
+    </p>
+    <p>
+        Comments <br/> <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="Save"/>
+    </p>
+</form>
+</body>
+</html>

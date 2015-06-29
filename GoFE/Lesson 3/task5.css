@@ -1,0 +1,34 @@
+/* VAR#1
+tr:nth-child(2) {
+    background: #ddebf7;
+}
+tr:nth-child(4) {
+    background: #ddebf7;
+}
+tr:nth-child(6) {
+    background: #ddebf7;
+}
+td:nth-child(3) {
+    background: #f2f2de;
+}
+td:nth-child(5) {
+    background: #f2f2de;
+}
+td:nth-child(7) {
+    background: #f2f2de;
+}
+td:nth-child(9) {
+    background: #f2f2de;
+}
+*/
+
+/*VAR#2 ниже*/
+tr:nth-child(even) {
+    background: #ddebf7;
+}
+td:nth-child(odd) {
+    background: #f2f2de;
+}
+td:nth-child(1) {
+    background: inherit;
+}

@@ -1,0 +1,54 @@
+/*.header_menu_line {
+    width: 900px;
+    height: 40px;
+    background-color: #A64DFF;
+    margin-top: 25px;
+}
+.menu {
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    font-family: Impact;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    height: inherit;
+    box-sizing: border-box;
+    padding-top: 10px;
+    background-color: #A64DFF;
+}
+.home {
+    margin-left: 65px;
+}
+.travels {
+    background-color: #E3E3E3;
+    color: #898989;
+}
+*/
+div {
+    width: auto;
+    height: 39px;
+    background-color: #A64DFF;
+    margin-top: 25px;
+}
+nav {
+    width: 900px;
+}
+li {
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-family: Impact;
+    padding: 10px 15px;
+    background-color: #A64DFF;
+    font-size: 16px;
+        }
+li:first-child {
+    margin-left: 65px;
+}
+li:hover {
+    background-color: #E3E3E3;
+    color: #898989;
+    cursor: pointer;
+}

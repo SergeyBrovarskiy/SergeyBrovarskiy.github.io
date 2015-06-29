@@ -1,0 +1,73 @@
+body {
+    font-size: 80px;
+}
+.eye_check_table {
+    width: 384px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    position: relative;
+}
+.eye_check_table > div {
+    width: 384px;
+    margin-bottom: calc(0.5em + 16px);
+    color: transparent;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.7)
+}
+body > .eye_check_table > .edge {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 383px;
+    border-bottom: dotted red 1px;
+    position: absolute;
+    top: 94%;
+
+}
+.one {
+    font-size: 1em;
+    letter-spacing: 257px;
+}
+.two {
+    font-size: 0.9em;
+    letter-spacing: 111px;
+}
+.three {
+    font-size: 0.8em;
+    letter-spacing: 57px;
+}
+.four {
+    font-size: 0.7em;
+    letter-spacing: 42px;
+}
+.five {
+    font-size: 0.6em;
+    letter-spacing: 49px;
+}
+.six {
+    font-size: 0.5em;
+    letter-spacing: 39px;
+}
+.seven {
+    font-size: 0.4em;
+    letter-spacing: 47px;
+}
+.eight {
+    font-size: 0.35em;
+    letter-spacing: 38px;
+}
+.nine {
+    font-size: 0.3em;
+    letter-spacing: 42px;
+}
+.ten {
+    font-size: 0.18em;
+    letter-spacing: 42px;
+}
+.eleven {
+    font-size: 0.13em;
+    letter-spacing: 46px;
+}
+.twelve {
+    font-size: 0.13em;
+    letter-spacing: 46px;
+}

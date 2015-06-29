@@ -1,0 +1,35 @@
+li {
+    display: inline-block;
+    color: #A64DFF;
+    cursor: pointer;
+    font-size: 10px;
+}
+.number {
+    border: #E3E3E3 solid 1px;
+    padding: 4px 7px;
+    border-radius: 4px;
+}
+.navigation {
+    text-transform: uppercase;
+}
+.dot {
+    color: #666666;
+    vertical-align: sub;
+    margin: auto 4px;
+}
+.number:hover {
+    background-color: #a64dff;
+    color: white;
+}
+.first {
+    margin-right: 18px;
+}
+.prev {
+    margin-right: 10px;
+}
+.next {
+    margin-left: 10px;
+}
+.last {
+    margin-left: 18px;
+}

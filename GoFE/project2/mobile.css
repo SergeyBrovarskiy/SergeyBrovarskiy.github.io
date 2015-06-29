@@ -1,0 +1,193 @@
+@media (max-width: 799px){
+    body {
+        width: 100%;
+        max-width: 799px;
+        min-width: 320px;
+    }
+    .header__wrapper {
+        width: 300px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .header__circle-abc {
+        display: block;
+        float: none;
+        text-align: center;
+        width: 46px;
+        margin: 0 auto;
+    }
+    .header__wrapper > h1 {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+        padding: 10px 0 10px 0;
+        border-bottom: 1px solid #2980b9;
+        width: 184px;
+    }
+    .header__connect {
+        display: block;
+        float: none;
+        text-align: center;
+        width: 47.75%;
+        margin: 0 auto;
+        padding: 10px 0 42px 0;
+    }
+    .header__connect__connect {
+        padding: 3px 0 0 0;
+    }
+    .header__social {
+        padding: 0;
+    }
+    .welcome-wrapper {
+        width: 300px;
+        margin: 0 auto;
+        padding-bottom: 150px;
+    }
+    .welcome-wrapper__left-block {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .welcome-wrapper__welcome {
+        padding: 38px 0 10px 0;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 42px;
+    }
+    .welcome-wrapper__paragraph {
+        font-size: 16px;
+        padding: 0 0 26px 0;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 90%;
+        min-width: 90%;
+        display: block;
+    }
+    .registration-form {
+        width: 300px;
+        left: -300px;
+        top: 0;
+    }
+    .subhead-paragraph-content {
+        width: 300px;
+        margin: 0 auto;
+        padding-top: 314px;
+        text-align: center;
+    }
+    .subhead-paragraph-content > p {
+        width: 100%;
+        text-align: center;
+    }
+    .benefits {
+        width: 300px;
+        margin: 30px auto 0 auto;
+        border-bottom: 1px solid #EBEBEB;
+    }
+    .we-best {
+        text-align: center;
+    }
+    .benefit-item {
+        float: none;
+        margin: 0 0 40px 0;
+    }
+    .comments-top {
+        width: 300px;
+        margin: 0 auto;
+        padding-bottom: 166px;
+        padding-top: 46px;
+    }
+    .comments-top > h3 {
+        float: none;
+        text-align: center;
+        padding-bottom: 16px;
+    }
+    .comments-top__navigation {
+        float: none;
+        width: 84px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    .comments-top__content {
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+    .quote-top {
+        float: none;
+    }
+    .quote-bottom {
+        left: 281px;
+    }
+    .comments-paragraph {
+        padding-top: 0px;
+    }
+    .comments-bottom-wrapper {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .comments-bottom {
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+    .comments-bottom__button {
+        width: 100%;
+        z-index: 1;
+        position: relative;
+        text-align: center;
+        padding: 10px 25px 60px 25px;
+        font-size: 20px;
+        line-height: 1.45;
+    }
+    .comments-bottom__button:after {
+        width: 20px;
+        height: 20px;
+        left: 134px;
+        top: 78px;
+    }
+    .comments-bottom__image {
+        top: -182px;
+        right: 38px;
+    }
+    .footer__wrapper {
+        width: 300px;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .footer-home-link {
+        float: none;
+        margin: 0 auto;
+        padding-right: 0;
+        border-right: none;
+    }
+    .footer__circle-abc {
+        float: none;
+        margin: 0 auto;
+        width: 53px;
+
+    }
+    .footer-home-link h1 {
+        display: block;
+        float: none;
+        margin: 10px auto 0 auto;
+        padding: 0 0 8px 0;
+        width: 184px;
+        border-bottom: 1px solid #2980b9;
+    }
+    .footer__connect {
+        float: none;
+        margin: 0 auto;
+        padding: 10px 0 50px 0;
+        width: 146px;
+    }
+    .credits {
+        width: 90%;
+        padding: 0;
+        text-align: center;
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+}

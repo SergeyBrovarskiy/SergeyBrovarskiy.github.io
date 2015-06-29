@@ -1,0 +1,6 @@
+article p:nth-of-type(1) {
+    text-transform: uppercase;
+}
+article p:nth-last-child(1) {
+     color: #999;
+ }

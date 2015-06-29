@@ -1,0 +1,587 @@
+body {
+    max-width: 1400px !important;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ee8129;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+.logo > span {
+    color: #3070a8;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.main-menu__list {
+    list-style-type: none;
+    margin: 0;
+
+}
+
+.main-menu__button {
+    display: inline-block;
+    vertical-align: -28px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.main-menu {
+    float: right;
+    margin-right: 10%;
+}
+
+.logo {
+    margin-left: 10%;
+}
+
+.main-menu__button > a {
+    text-decoration: none;
+    color: #3070a8;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 0.7em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 21px;
+    padding-top: 32px;
+    box-sizing: border-box;
+}
+
+.main-menu__button:hover > a {
+    cursor: pointer;
+    color: #3070a8;
+    border-bottom: 3px solid #3070a8;
+}
+
+.middle-banner {
+    width: auto;
+    height: 577px;
+    background-color: #2BC2D4;
+    background: url("http://s020.radikal.ru/i719/1505/d5/acacce0f267d.jpg") center;
+    color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.middle-banner__pre-header {
+    font-size: 32px;
+    padding-top: 12%;
+    font-weight: lighter;
+}
+
+.middle-banner__header {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 42px;
+    padding-top: 1%;
+    line-height: 1.3;
+}
+
+.middle-banner__paragraph {
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-top: 1%;
+    line-height: 1.5;
+}
+.middle-banner__button {
+    margin-top: 4%;
+}
+.middle-banner__button a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    width: 218px;
+    height: 34px;
+    border: solid 1px white;
+    padding-top: 16px;
+    transition: color 0.3s, background 0.3s, opacity 0.3s;
+}
+.middle-banner__button > a:hover
+{
+    color: #3070a8;
+    background: #fff;
+    opacity: 0.8;
+}
+
+.advantage-white-section__header {
+    color: #41525c;
+    font: 22px sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 68px;
+    padding-bottom: 60px;
+}
+.advantage-white-section {
+    width: 100%;
+}
+.advantage-white-section__wrapper {
+    text-align: center;
+}
+.advantage-unit {
+    padding: 0 2%;
+    display: inline-block;
+}
+.advantage-header {
+    text-transform: uppercase;
+    color: #3070a8;
+    font: 22px sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.advantage-paragraph {
+    color: #999999;
+    font: 12px sans-serif;
+    line-height: 2;
+}
+
+.list-section {
+    height: 577px;
+    background: url("http://s019.radikal.ru/i639/1505/fd/cdd561d0ced5.jpg") center;
+    margin-top: 5%;
+}
+.list-section__text {
+    color: #ee8129;
+    font: 22px sans-serif;
+    text-transform: uppercase;
+    padding-left: 10%;
+    padding-top: 6%;
+    line-height: 2;
+}
+.list-section__text > span {
+    font-size: 17px;
+    font-style: italic;
+    color: white;
+    text-transform: none;
+}
+.list-section__list {
+    color: #8c8c8d;
+    font: 13px sans-serif;
+    padding-left: 11%;
+    padding-top: 1%;
+    line-height: 2;
+    list-style-type: disc;
+}
+.list-section__list > li {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.list-section__list > li:nth-child(2) {
+    color: #3070a8;
+}
+
+@media (max-width: 600px) {
+    .list-section__list {
+        min-width: 580px;
+    }
+    .list-section__text {
+        min-width: 580px;
+    }
+}
+.headline {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #35495A;
+    font-size: 14px;
+    margin: 25px auto;
+    width: 820px;
+}
+h1 {
+    margin: 0;
+}
+
+.offers_container {
+    position: relative;
+    width: 880px;
+    height: 470px;
+    margin: 0px auto;
+}
+.subscription-plan {
+    width: 300px;
+    height: 470px;
+    background-color: #EE8129;
+
+    box-shadow: 0px 0px 4px 3px #D7E6EE;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.subscription-plan.best_value{
+    position: absolute;
+    left: 290px;
+    z-index: 1;
+}
+.subscription-plan.standard {
+    width: 290px;
+    height: 440px;
+    position: absolute;
+    top: 13px;
+    box-shadow: 0px 0px 0px 0px;
+    margin-right: -4px;
+    border: solid 2px #D7E6EE;
+    border-right: 0px;
+    background-color: #2BC2D4;
+    border-radius: 8px 0 0 0;
+
+}
+.subscription-plan.ultimate {
+    width: 290px;
+    height: 440px;
+    position: absolute;
+    left: 590px;
+    top: 13px;
+    box-shadow: 0px 0px 0px 0px;
+    border: solid 2px #D7E6EE;
+    border-left: 0px;
+    background-color: #00B89A;
+    border-radius: 0 8px 0 0;
+}
+.plan-title {
+    margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    height: 19px;
+    width: 300px;
+    font: 700 19px sans-serif ;
+    vertical-align: middle;
+    top: 0px;
+    left: 0px;
+    padding: 29px 0;
+}
+.plan-title.standard {
+    height: 4px;
+    background-color: #2BC2D4;
+    padding-top: 21px;
+    padding-bottom: 37px;
+    width: 290px;
+    border-radius: 8px 0 0 0;
+}
+.plan-title.ultimate {
+    height: 4px;
+    background-color: #00B89A;
+    padding-top: 21px;
+    padding-bottom: 37px;
+    width: 290px;
+    border-radius: 0 8px 0 0;
+}
+.plan-container {
+    background-color: white;
+    width: 290px;
+    height: 389px;
+    left: 0px;
+    top: 77px;
+    margin: 0px auto;
+}
+.plan-container.standard {
+    width: 290px;
+    height: 379px;
+}
+.plan-container.ultimate {
+    width: 290px;
+    height: 379px;
+}
+.plan-name {
+    color: #35495A;
+    font: 20px sans-serif;
+    text-align: center;
+    padding: 21px 0;
+}
+.plan-description > div {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+.plan-description {
+    height: 78px;
+    width: 167px;
+    margin: 0 auto;
+}
+.currency {
+    vertical-align: 18px;
+    font: 22px sans-serif ;
+    color: #35495A;
+}
+.plan-price {
+    vertical-align: middle;
+    font: 72px sans-serif ;
+    color: #35495A;
+}
+.period {
+    vertical-align: -28px;
+    font: 19px sans-serif ;
+    color: #35495A;
+}
+.features-list{
+    list-style-type: none;
+    padding-left: 0px;
+    width: 260px;
+    margin: 26px auto 10px;
+}
+.features-list__item {
+    height: 27px;
+    width: 260px;
+    color: #35495A;
+    text-align: left;
+    padding-top: 7px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.features-list__item:nth-child(odd) {
+    background-color: #E8F2FB;
+}
+.features-list__item:nth-child(odd):before {
+    content: url("http://s012.radikal.ru/i319/1505/fd/7011ed76b887.png");
+    margin-right: 16px;
+    margin-left: 33px;
+}
+.features-list__item:nth-child(even):before {
+    content: url("http://s015.radikal.ru/i331/1505/ca/d184137ef715.png");
+    margin-right: 16px;
+    margin-left: 33px;
+}
+.plan-enroll-link {
+    display: block;
+    margin: 0px auto;
+    width: 253px;
+    height: 29px;
+    background-color: #EE8129;
+    border-radius: 5px;
+    box-shadow: 0 3px 0px 0px #B05710;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font: 15px sans-serif;
+    text-align: center;
+    padding-top: 13px;
+    transition: background 0.2s, box-shadow 0.3s;
+}
+.plan-enroll-link.standard {
+    background-color: #2F70A8;
+    box-shadow: 0 3px 0px 0px #13426B;
+}
+.plan-enroll-link.ultimate {
+    background-color: #2F70A8;
+    box-shadow: 0 3px 0px 0px #13426B;
+}
+.plan-enroll-link:hover {
+    background-color: #FF9C2A;
+    box-shadow: 0px 3px 3px 0px #B05710;
+}
+.plan-enroll-link.standard:hover {
+    background-color: #5CA4FF;
+    box-shadow: 0px 3px 3px 0px #13426B;
+}
+.plan-enroll-link.ultimate:hover {
+    background-color: #5CA4FF;
+    box-shadow: 0px 3px 3px 0px #13426B;
+}
+.feedback {
+    width: auto;
+    height: 290px;
+    background-color: cadetblue;
+    background-image: url("https://pp.vk.me/c625221/v625221089/2b329/jtqXOIGG-Do.jpg");
+    position: relative;
+    margin-top: 2%;
+}
+.feedback__header {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    color: #3172AB;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+.feedback__header span {
+    color: #FF8B2A;
+}
+.feedback__item {
+    display: inline-block;
+    height: 31%;
+    width: 36%;
+    min-width: 448px;
+
+}
+.feedback_block:before {
+    width: 0;
+    height: 0;
+    margin: 0px;
+    content: "";
+    border-top: 12px solid;
+    border-right: 14px solid;
+    border-bottom: 12px solid;
+    border-left: 12px solid;
+    border-color: transparent white transparent transparent;
+    position: absolute;
+    left: -24px;
+    top: 38%;
+}
+.feedback__item.Trollio {
+    margin-left: 10%;
+    float: left;
+}
+.feedback__item.Soul {
+    margin-right: 10%;
+    float: right;
+}
+@media (max-width: 1120px){
+    .feedback__item.Soul {
+        margin-left: 10%;
+        float: left;
+        padding-top: 2%;
+    }
+
+}
+.feedback__name {
+    display: inline-block;
+    color: #3172AB;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    margin: 3% 0 0 4%;
+    float: left;
+}
+.feedback__status {
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    color: #3172AB;
+    display: inline-block;
+    float: right;
+    margin: 3% 4% 0 0;
+}
+.feedback__item > img {
+    display: inline;
+    float: left;
+    width: 90px;
+    height: 90px;
+}
+.feedback_block {
+    display: inline-block;
+    float: right;
+    background-color: #F7F7F7;
+    height: 90px;
+    width: 75%;
+    position: relative;
+}
+.feedback__text {
+    display: inline-block;
+    font-size: 0.8em;
+    font-family: sans-serif;
+    color: #666666;
+    text-align: justify;
+    margin: 2% 4% 0 4%;
+    padding-top: 3%;
+    border-top: dashed 1px #666666;
+}
+.details {
+    float: left;
+    color: #666666;
+    font: 14px sans-serif;
+    padding-top: 4%;
+    line-height: 2;
+    margin-left: 10%;
+}
+.social-buttons {
+
+}
+.map {
+    float: right;
+}
+@media (max-width: 1040px) {
+    .map{
+        float: left;
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+.footer {
+    width: 100%;
+    height: 104px;
+    background-color: #3070a8;
+    color: white;
+    text-align: center;
+}
+.footer__text {
+    display: inline-block;
+    font: 14px sans-serif;
+    padding-top: 2%;
+    line-height: 2;
+}
+.footer__text > span:nth-child(1) {
+    font-weight: bold;
+}
+.footer__text > span:nth-last-child(1) {
+    color: black;
+    font-weight: bold;
+}
+/*
+.address:before {
+    content: url("http://s56.radikal.ru/i151/1505/b5/bb73a7f136cf.png");
+    left: -17%;
+    position: relative;
+    vertical-align: -10px;
+}
+.phone:before {
+    content: url("http://s020.radikal.ru/i707/1505/de/a1f369167fd0.png");
+    left: -17%;
+    position: relative;
+    vertical-align: -8px;
+}
+.e-mail:before {
+    content: url("http://s003.radikal.ru/i201/1505/f1/28e924472909.png");
+    left: -17%;
+    position: relative;
+    vertical-align: -3px;
+}
+*/
+.address .phone .e-mail {
+    margin-left: 10%;
+}
+.social-buttons {
+    padding-top: 2%;
+    width: 182px;
+}
+.social-buttons > a {
+    display: inline-block;
+}
+.twitter {
+    margin: 0 8%;
+}
+.address {
+    background: url("http://s56.radikal.ru/i151/1505/b5/bb73a7f136cf.png") no-repeat;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+.phone {
+    background: url("http://s020.radikal.ru/i707/1505/de/a1f369167fd0.png") no-repeat;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+.e-mail {
+    background: url("http://s003.radikal.ru/i201/1505/f1/28e924472909.png") no-repeat;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    vertical-align: baseline;
+
+}

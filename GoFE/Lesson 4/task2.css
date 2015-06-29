@@ -1,0 +1,32 @@
+div {
+    width: auto;
+    height: 39px;
+    background-color: #A64DFF;
+    margin-top: 25px;
+}
+li {
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-family: Impact;
+    padding: 10px 15px;
+    background-color: #A64DFF;
+    font-size: 16px;
+}
+li:first-child {
+    margin-left: 65px;
+}
+.must_float {
+    float: right;
+    margin-right: 65px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+li:hover {
+    background-color: #E3E3E3;
+    color: #898989;
+    cursor: pointer;
+}
