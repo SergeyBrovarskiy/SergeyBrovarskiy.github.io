@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var login = prompt("Enter login, plz:", ''), password;
+    if (login == "admin") {
+        password = prompt("Enter password, plz:", '');
+        if (password == "passw0rd") {
+            alert("Welcome home!");
+        } else {
+            alert("Wrong password!");
+        }
+    } else if (login == null) {
+        alert("Canceled");
+    } else {
+        alert("Access denied");
+    }
+</script>
+</body>
+</html>
